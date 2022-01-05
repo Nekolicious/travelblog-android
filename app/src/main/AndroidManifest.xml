@@ -8,7 +8,7 @@
         android:label="Travel Blog"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.pam.travelblog.SplashActivity"
+            android:name="com.travelblog.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,11 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.pam.travelblog.LoginActivity"/>
+        <activity android:name="com.travelblog.LoginActivity"/>
         <activity
-            android:name="com.pam.travelblog.MainActivity"
+            android:name="com.travelblog.MainActivity"
             android:theme="@style/MainTheme" />
-        <activity android:name="com.pam.travelblog.BlogDetailsActivity" />
+        <activity android:name="com.travelblog.BlogDetailsActivity" />
     </application>
 
 </manifest>
